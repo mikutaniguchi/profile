@@ -3,21 +3,7 @@
         $mail = $_POST['mail'];
         $content = $_POST['content'];
         
-        // $company  = '';
-        // if(array_key_exists('company', $_POST)){
-        //     $company = $_POST['company'];
-        // }
-        
-        // $name  = '田中太郎';
-        // if(array_key_exists('name', $_POST)){
-        //     $name = $_POST['name'];
-        // }
-        
-        
-        // if($_POST){
-        //     $company = $_POST['company'];
-        //     $name = $_POST['name'];
-        // }
+       
   
 ?>
 <!DOCTYPE html>
@@ -47,7 +33,7 @@
             </table>
             
             <div class="text-center mb-4">
-                <a href="intro.php" class="btn btn-info btn-lg">戻る</a> 
+                <a href="index.php" class="btn btn-info btn-lg">戻る</a> 
                             
             </div>
         </div>

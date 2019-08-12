@@ -13,7 +13,7 @@
   <body>
     <header>
       　
-      <nav class="navbar navbar-expand-md navbar-light">
+      <nav class="navbar navbar-expand-md navbar-light bg-white">
         <a href="#" class="navbar-brand">Profile</a>
         <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#nav-bar">
                 <span class="navbar-toggler-icon"></span>
@@ -173,9 +173,9 @@
    </div>
 
    <div class="form-group row mt-4">
-       <label class="col-sm-3 col-form-label">お問い合わせ内容</label>
+       <label class="col-sm-3">お問い合わせ内容</label>
        <div class="col-sm-9">
-           <input type="textarea" class="form-control" name="content" rows="8" cols="200">
+           <textarea class="form-control" name="content" rows="5"></textarea>
        </div>
    </div>
 
