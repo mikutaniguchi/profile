@@ -13,7 +13,7 @@
   <body>
     <header>
       　
-      <nav class="navbar navbar-expand-md navbar-light bg-white">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top">
         <a href="#" class="navbar-brand">Profile</a>
         <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#nav-bar">
                 <span class="navbar-toggler-icon"></span>

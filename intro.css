@@ -11,14 +11,22 @@ body{
   font-size: 30px;
 }
 .navbar{
-  padding-top:50px;
+  background: rgba(255,255,255,0.7);
+  padding-top:15px;
   padding-bottom: 0;
   text-align:right;
 }
+.navbar:hover{
+  background: rgba(255,255,255,1);
+  transition: .5s;
+}
+
+
 .nav-item{
   font-size: 22px;
   padding-right: 1em;
 }
+
 
 li a {
   display: block;
@@ -43,6 +51,7 @@ background-image:url("flower.jpg");
 width:100%;
 height:500px;
 background-size: cover;
+margin-top:50px;
 }
 
 h1{
@@ -101,5 +110,9 @@ border-bottom: 2px solid #c0c0c0;
    .width-sm{
    margin:0 5em;
 　　}
-　
+　　
+
 }
+
+
+
